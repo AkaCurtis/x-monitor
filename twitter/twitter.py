@@ -44,8 +44,8 @@ def send_discord_message(content, image_url=None):
                 "color": 0x27a9ff,
                 "image": {"url": image_url} if image_url else None,
                 "footer": {
-                    "text": "Savings Squad Deals",
-                    "icon_url": "https://pbs.twimg.com/profile_images/1708899711283793920/yHqgXwrv_400x400.jpg"
+                    "text": "Savings Squad Deals", #change me
+                    "icon_url": "https://pbs.twimg.com/profile_images/1708899711283793920/yHqgXwrv_400x400.jpg" #change me
                 }
             }]
         }
